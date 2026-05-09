@@ -1,0 +1,73 @@
+# Web framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Database
+sqlalchemy==2.0.25
+alembic==1.13.1
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+aiosqlite==0.19.0
+neo4j==5.16.0
+redis==5.0.1
+qdrant-client==1.7.0
+
+# Task queue
+celery==5.3.6
+flower==2.0.1
+
+# AI / ML core
+torch==2.2.0
+torchvision==0.17.0
+transformers==4.37.0
+sentence-transformers==2.3.1
+scikit-learn==1.4.0
+xgboost==2.0.3
+numpy==1.26.3
+pandas==2.1.4
+
+# RL
+gymnasium==0.29.1
+stable-baselines3==2.2.1
+
+# LLM / RAG
+anthropic==0.18.1
+google-generativeai==0.5.0
+langchain==0.1.5
+langchain-anthropic==0.1.1
+langchain-community==0.0.17
+faiss-cpu==1.7.4
+
+# NLP / Evaluation
+nltk==3.8.1
+spacy==3.7.2
+evaluate==0.4.1
+bert-score==0.3.13
+
+# Explainability
+shap==0.44.0
+lime==0.2.0.1
+
+# Experiment tracking
+mlflow==2.10.0
+
+# Data validation
+pydantic==2.5.3
+pydantic-settings==2.1.0
+email-validator==2.1.0.post1
+argon2-cffi==23.1.0
+
+# Monitoring
+prometheus-client==0.19.0
+
+# Utilities
+python-dotenv==1.0.0
+httpx==0.26.0
+aiofiles==23.2.1
+scipy==1.12.0
+networkx==3.2.1
+matplotlib==3.8.2
+seaborn==0.13.2
